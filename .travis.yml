@@ -1,0 +1,8 @@
+language: go
+
+go:
+  - 1.8.3
+
+go_import_path: github.com/zsais/goresume
+install: go get -t -v .
+script: go test -v ./...
